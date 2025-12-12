@@ -5,3 +5,4 @@
 objects/__pycache__/
 test/__pycache__/
 reports/
+__pycache__/
