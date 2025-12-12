@@ -30,8 +30,8 @@ It is a good practise to create a virtual environment. It allows the ability to 
 - Create a virtual environment with `virtualenv <name-of-env>` (common names include venv, .venv, env)
 - Activate the virtual environment by;
   - MacOS =: `source <name-of-env>/bin/activate` 
-  - Windows with CMD =: `.\venv\Scripts\activate.bat`
-  - Windows with powershell =: `.\venv\Scripts\activate.ps1`
+  - Windows with CMD =: `.\<name-of-env>\Scripts\activate.bat`
+  - Windows with powershell =: `.\<name-of-env>\Scripts\activate.ps1`
 - Now that the virtual environment is activated, execute the command `pip install -r requirements.txt` to install all dependencies for the project.
 ---
 ### Execution
